@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+body{
+    background-color:aliceblue;
+    margin: 0%;
+    padding: 0%;
+}
+
+h1{
+    font-family: 'https://kinsta.com/es/blog/fuentes-seguras-para-la-web/#11-courier-new';
+    font-size: 500%;
+    color:midnightblue;
+    text-align: center;
+
+}
+
+
+hr{
+    /*border: requiere el tamaño de la linea, color y el tipo de linea*/
+    border:1px dotted black ;
+}
+
+ul{
+    background-color:black;
+    display: flex;
+    flex-direction: row;
+}
+
+ul > li {
+    margin-right: 100px;
+    position: relative;
+    left: 700px;
+
+}
+
+ul > li > a {
+    /*Remover*/
+    text-decoration: none;
+    color:blue;
+    
+}
+
+
+ul{
+    font-size: 30px;
+    background-color:black;
+    font-family: cursive;
+}
+
